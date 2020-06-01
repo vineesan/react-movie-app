@@ -21,9 +21,14 @@ html {
  box-sizing: inherit;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 .App-main{
   display: grid;
-  grid-template-columns: 15% auto;
+  grid-template-columns: 18% auto;
   min-height: 100vh;
 }
 
@@ -32,7 +37,6 @@ html {
 }
 
 .App-content-wrapper{
-  padding: 25px 2em;
   background-color: #222B31;
   color: #FFF;
 }

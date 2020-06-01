@@ -1,0 +1,32 @@
+.Discover-main-title{
+  margin-bottom: 0;
+}
+
+.discover-tagline{
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.sort-order{
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-color: #191C1F;
+  padding: 10px;
+}
+
+.sort-order__item{
+  display: flex;
+  align-items: center;
+  display: inherit;
+  padding: 0 8px;
+}
+
+.sort-order-label{
+  font-size: 12px;
+  text-transform: uppercase;
+}

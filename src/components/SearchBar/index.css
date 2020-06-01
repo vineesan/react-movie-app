@@ -1,11 +1,12 @@
 .SearchBar-wrapper{
+  position: relative;
 }
 
 .search-movie-input{
   width: 100%;
-  padding: 20px;
+  padding: 38px;
   font-size: 20px;
-  background-color: #495a65;
+  background-color: #e53b47;
   border: 0;
   color: white;
 }
@@ -16,4 +17,17 @@
 
 .search-movie-input:focus{
   outline: 0;
+}
+
+.search-movie-input-icon{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: auto;
+}
+
+.search-movie-input-icon path{
+  fill: #FFF;
 }
